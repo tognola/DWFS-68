@@ -1,0 +1,55 @@
+@import 'estilos/variables';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $color-primary;
+}
+
+form{
+    border: 1px solid $color-secondary;
+    background-color: $color-light;
+    width: 50%;    
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 10px;
+
+    @include center;
+
+    h2{
+        text-align: center;
+        color: $color-primary;
+        margin-bottom: 20px;
+    }
+
+    div{
+
+        text-align: center;
+
+        label{
+            color: $color-primary;
+            display: inline-block;
+            width: 90px;
+        }
+
+        input{
+            @include input;
+            margin: 3px;
+        }
+        
+        button{
+            @include input;
+            margin-top: 20px;
+            background-color: $color-secondary;
+            color: $color-light;
+
+            &:hover{
+                background-color: $color-grey;
+                color: $color-primary
+            }
+        }
+    }    
+}

@@ -1,0 +1,31 @@
+$color-primary:  #16697a;
+$color-secondary: #db6400;
+$color-grey: #ffa62b;
+$color-light: #f8f1f1;
+$font: 'Arial';
+
+ @mixin input{
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+@mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin center-horizontal {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+@mixin center-vertical {
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        <label for="nombre"> Nombre: </label>
+        <input tabindex="1" type="text" value="" required name="name" id="nombre" placeholder="Inserta tu nombre">
+        <br>
+        <label for="apellido"> Apellido: </label>
+        <input type="text" required name="surname" id="apellido" placeholder="Inserta tu apellido">
+        <br>
+        <label for="pais">País:</label>
+        <select multiple tabindex="2" name="pais" id="pais" >
+            <option value="" selected disabled>Seleccionar país...</option>
+            <option value="arg">Argentina</option>  
+            <option value="col">Colombia</option>
+            <option value="mex">Mexico</option>
+            <option value="vnz">Venezuela</option>
+        </select>
+        <br>
+        <label for="numero">Numero</label>
+        <input type="number" name="numero" id="numero">
+        <br>
+        <label for="tel">Telefono:</label>
+        <input type="tel" name="tel" id="tel">
+        <br>
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" name="date" id="fecha">
+        <br>
+        <label for="hora">Hora:</label>
+        <input type="time" name="time" id="hora">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="password" id="pass">
+        <br>
+        <p>¿Quiere recibir notificaciones a su mail?</p>
+        <input type="radio" value="si" required id="si" name="notification"> <label for="si">Si</label>
+        <input type="radio" value="no" id="no" name="notification"> <label for="no">No</label>
+        <input type="radio" value="quizas" id="quizas" name="notification"> <label for="quizas">Quizás</label>
+        <br>
+        <input type="checkbox" name="remember" id="recordar"> <label for="recordar">Recordar datos</label>
+        <br>
+        <label for="comentario">Comentario:</label> <br>
+        <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Enviar Formulario">
+
+
+    </form>
+
+</body>
+</html>

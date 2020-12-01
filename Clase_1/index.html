@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina</title>
+    <style>
+        body{ background-color: darkgrey;}
+        h1{ color: red; }
+        p{  background-color: black; color: white; }
+    </style>
+</head>
+<body>
+    <h1 id="nombre">Gastón Tognola</h1>
+    <h6 id="fecha_nacimiento">23/02/1994</h6>
+    <p id="descripcion">Me llamo Gastón tengo 26 años, soy de Corrientes y vivo en Buenos Aires Argentina.</p>
+    
+    <script>
+        nombre = document.getElementById("nombre");
+        nombre.addEventListener("click", function(){alert("Bienvenido a mi sitio web!")});
+        descripcion = document.getElementById("descripcion");
+        descripcion.addEventListener("mouseenter", function(){
+            descripcion.style.color = "black";
+            descripcion.style.backgroundColor = "white";
+        });
+        descripcion.addEventListener("mouseout", function(){
+            descripcion.style.color = "white";
+            descripcion.style.backgroundColor = "black";
+        });
+    </script>
+</body>
+</html>
