@@ -1,0 +1,13 @@
+.contacto{
+    .titulo{
+        @include titulo;
+    }
+
+    .formulario{
+        /*width: fit-content; -- Para que el ancho se ajuste al contenido*/
+        border: 2px solid red;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+}

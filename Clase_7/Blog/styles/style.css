@@ -1,0 +1,104 @@
+* {
+  font-family: Calibri;
+  margin: 0;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+}
+
+header nav {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+header nav ul li .link {
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: color 0.3s ease-in, -webkit-transform 0.5s linear;
+  transition: color 0.3s ease-in, -webkit-transform 0.5s linear;
+  transition: color 0.3s ease-in, transform 0.5s linear;
+  transition: color 0.3s ease-in, transform 0.5s linear, -webkit-transform 0.5s linear;
+}
+
+header nav ul li .link:hover {
+  color: red;
+  font-weight: bold;
+  -webkit-transform: translateY(5px) scale(1.2);
+          transform: translateY(5px) scale(1.2);
+}
+
+.contenedor {
+  margin: 20px;
+}
+
+.contenedor .post {
+  width: 50%;
+  float: left;
+}
+
+.contenedor .post .titulo {
+  color: red;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.contenedor .post p {
+  color: grey;
+  font-size: 16px;
+  text-align: justify;
+  padding: 0px 5px;
+  margin-bottom: 50px;
+}
+
+.contenedor .post .btn-container {
+  text-align: center;
+}
+
+.contenedor .post .btn-container .button {
+  color: white;
+  width: 100px;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  background: #26a7d1;
+  background: radial-gradient(circle, #26a7d1 0%, #3a29b6 82%);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.contenedor .post .btn-container .button:hover {
+  text-shadow: 1px 1px 1px black;
+  -webkit-box-shadow: 3px 3px 5px grey;
+          box-shadow: 3px 3px 5px grey;
+}
+
+.contacto .titulo {
+  color: red;
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.contacto .formulario {
+  /*width: fit-content; -- Para que el ancho se ajuste al contenido*/
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
