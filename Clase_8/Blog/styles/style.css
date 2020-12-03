@@ -41,6 +41,10 @@ header nav ul li .link:hover {
           transform: translateY(5px) scale(1.2);
 }
 
+header nav .btn-menu {
+  display: none;
+}
+
 .contenedor {
   margin: 20px;
 }
@@ -100,5 +104,19 @@ header nav ul li .link:hover {
   border-radius: 10px;
   padding: 10px;
   text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  header nav ul {
+    display: none;
+  }
+  header nav .btn-menu {
+    display: block;
+  }
+  .contenedor .post {
+    display: block;
+    width: 100%;
+    float: unset;
+  }
 }
 /*# sourceMappingURL=style.css.map */

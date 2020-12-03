@@ -1,0 +1,51 @@
+/*
+ Medidas relativas:
+    %
+    vw
+    vh
+    vmin
+    vmax
+    em -> el tamaño en pixeles de la letra m
+    rem -> el tamaño en pixeles de la letra m
+
+Media querys
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.box{
+    width: 50vw;
+    height: 50%;
+    background-color: aquamarine;
+    font-size: 1rem; /* 0.5 * 20px */
+    padding: 0.5em;
+}
+
+@media screen and (min-width:400px){ /*width >= 400px*/
+
+    .container{
+        background-color: red;
+    }
+
+} /*min-width y max-width*/
+
+@media screen and (max-width:350px){ /*width <= 350px*/
+
+    .container{
+        background-color: blue;
+    }
+
+} 
+
+.container
+{
+    width: 100vw;
+    height: 100px;
+    background-color: lightsalmon;
+    font-size: 20px;
+}

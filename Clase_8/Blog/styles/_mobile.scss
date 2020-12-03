@@ -1,0 +1,24 @@
+@media screen and (max-width: 400px){
+
+    header{
+        nav{
+            ul{
+                display: none; // block -- inline -- inline-block
+            }
+        
+            .btn-menu{
+                display: block;
+
+            }
+        }
+    }
+
+
+    .contenedor{
+        .post{
+            display: block;
+            width: 100%;
+            float: unset;
+        }
+    }
+}
