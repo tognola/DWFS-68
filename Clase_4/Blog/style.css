@@ -1,0 +1,31 @@
+*{
+    font-family: Calibri;
+    margin: 0;
+}
+
+nav{
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.titulo{
+    color: red;
+    text-align: center;
+    font-size: 24px;
+}
+
+p{
+    color: grey;
+    font-size: 16px;
+}
+
+.formulario{
+    /*width: fit-content; -- Para que el ancho se ajuste al contenido*/
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}

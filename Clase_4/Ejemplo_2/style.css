@@ -1,0 +1,36 @@
+.titulo{
+    font-size: 100px;
+    color: pink;
+}
+
+h2{
+    color: red;
+    text-decoration: underline;
+}
+
+h2{
+    color: blue;
+}
+
+span{
+    font-style: italic;
+    color: red ;
+}
+
+#resaltado{
+    background-color: yellow;
+    color: orange;
+}
+
+#resaltado{
+    color: blue;
+}
+
+.texto{
+    color: green !important;
+    font-weight: bold;
+}
+
+
+
+/*etiqueta < clase < id <<<<<<<< !important*/

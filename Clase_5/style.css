@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+
+/* DISPLAY BLOCK*/
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.box1{
+    background-color: lightblue;
+}
+
+.box2{
+    background-color: lightcoral;
+}
+
+.box3{
+    background-color: lightgreen;
+}
+.box4{
+    background-color: lightsalmon;
+}
+
+.box-inline{
+    display: inline;
+    border: 1px solid black;
+   /* width: 100px;
+    height: 100px;  NO APLICAN POR DISPLAY INLINE*/ 
+}
+
+.box-inline-block{
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+/*POR DEFECTO TODOS LOS ELEMENTOS HTML -> POSITION: STATIC */
+/* ELEMENTO POSICIONADOS SON TODOS LOS QUE TIENE POSITION != static*/
+
+.box-position-relative{
+    position: relative; /*TOP - RIGHT - LEFT - BOTTOM */
+    left: 150px;
+    top: 50px;
+}
+
+.box-position-absolute{
+    position: absolute; /*TOP - RIGHT - LEFT - BOTTOM */
+    left: 150px;
+    top: 50px;
+}
+
+.box-position-fixed{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+
+.box-position-sticky{
+    position: sticky;
+    top: 50px;
+}
+
+.contenedor{
+    position: relative;
+    margin: 10px;
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+    /*overflow*/
+}
+
+.contenedor .box1{
+    position: relative;
+    left: 50px;
+}
+
+.contenedor .box2{
+    position: absolute;
+    right: 0px;
+}
+
+.contenedor2{
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.sidebar{
+    width: 100px;
+    height: 500px;
+    background-color: lightseagreen;
+    float: left;
+}
+
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+    float: right;
+}
+
+.parrafo img{
+    float:left;
+}
+ .lista{
+     display: inline-block
+ }

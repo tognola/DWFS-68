@@ -1,0 +1,94 @@
+*{
+    font-family: Calibri;
+    margin: 0;
+}
+
+header{
+    border-bottom: 2px solid black;
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+}
+
+nav{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.link{
+    display: inline-block;
+    transition: color 0.3s ease-in,
+                transform 0.5s linear;
+}
+
+.link:hover{
+    color: red;
+    font-weight: bold;
+    transform: translateY(5px) scale(1.2);
+}
+
+.titulo{
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+p{
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 5px;
+    margin-bottom: 50px;
+}
+
+.formulario{
+    /*width: fit-content; -- Para que el ancho se ajuste al contenido*/
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contenedor{
+    margin: 20px;
+}
+
+.post{
+    width: 50%;
+    float: left;
+}
+
+.button{
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(38,167,209);
+    background: radial-gradient(circle, rgba(38,167,209,1) 0%, rgb(58, 41, 182) 82%);
+    transition: all 0.3s linear;
+}
+
+.button:hover{
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.btn-container{
+    text-align: center;
+}
