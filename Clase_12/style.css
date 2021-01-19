@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 60vh;
+    display: grid;
+    gap: 0.5em 1em; /*row-gap column-gap*/
+
+    grid-template-columns: 200px 200px;
+    justify-content:flex-end;
+
+}
+
+.box{
+    border: 1px solid black;
+}
+
+.box1 {
+    background-color: aquamarine;
+
+    /*grid-column-start: 1;
+    grid-column-end: 3;*/
+    /*grid-row-start: 2;
+    grid-row-end: 4;*/
+
+    /*grid-row: 2 / 4;
+    grid-column: 1 / 3;*/
+
+    grid-area: 2 / 1 / 4 / 3;
+}
